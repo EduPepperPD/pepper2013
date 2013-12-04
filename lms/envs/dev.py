@@ -19,7 +19,6 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 import os,sys
 sys.path.append("..") # => /home/tahoe/edx_all
-from siteconf import *
 
 MITX_FEATURES['DISABLE_START_DATES'] = True
 MITX_FEATURES['ENABLE_SQL_TRACKING_LOGS'] = True
@@ -315,8 +314,4 @@ PEPPERPD_PROFILE_DISTRICTS= [{"name":"ABC Unified SD","school":['school20','scho
 PEPPERPD_MAJOR_SUBJECT_AREA=["Multiple Subjects", "Mathematics", "ELA/Literacy","Science","History/Social Studies", "Other"]
 PEPPERPD_GRADE_LEVEL=["k","1","2","3","4","5","6","7","8","9","10","11","12"]
 PEPPERPD_YEARS_IN_EDUCATION=["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25+"]
-
-AWS_ACCESS_KEY_ID = AUTH_TOKENS_PEPPER["AWS_ACCESS_KEY_ID"]
-AWS_SECRET_ACCESS_KEY = AUTH_TOKENS_PEPPER["AWS_SECRET_ACCESS_KEY"]
-AWS_STORAGE_BUCKET_NAME = AUTH_TOKENS_PEPPER['AWS_STORAGE_BUCKET_NAME']
 

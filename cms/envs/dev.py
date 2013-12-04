@@ -223,4 +223,3 @@ EMAIL_USE_TLS = True
 
 import os,sys
 sys.path.append("..") # => /home/tahoe/edx_all
-from siteconf import *
